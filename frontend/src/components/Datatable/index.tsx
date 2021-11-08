@@ -32,7 +32,7 @@ const Datatable = () => {
     return (
 
         <>
-            <Pagination page={page} on PageChange={changePage} />
+            <Pagination page={page} onPageChange={changePage} />
             <div className="table-responsive">
                 <table className="table table-striped table-sm">
                     <thead>
